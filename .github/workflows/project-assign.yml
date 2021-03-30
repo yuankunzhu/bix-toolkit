@@ -17,7 +17,7 @@ jobs:
       uses: srggrs/assign-one-project-github-action@1.2.1
       if: github.event.action == 'opened'
       with:
-        project: 'https://github.com/srggrs/assign-one-project-github-action/projects/1'
+        project: 'https://github.com/yuankunzhu/bix-toolkit/projects/1'
         column_name: 'new requests'
 
     # - name: Assign issues and pull requests with `bug` label to project 3
